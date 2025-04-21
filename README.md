@@ -1,5 +1,19 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/WZovCNvQ)
+
+## Repositori
+
+[Repositori](https://github.com/SergiAlbalat/M09T1PR2-SergiAlbalat)
+
+## Explicació:
+
+En aquest projecte he creat una api amb 3 controladors: un controlador d'autentificacio on es pot fer registre de usuaris i admins, fer login i un metode per obtenir el teu nom d'usuari, deprés hi ha un controlador per els jocs que dona tots els jocs en un json, dona la informacio de un joc especific, inserir un joc si ets admin, actualitzar un joc si ets admin, o borrar un joc si ets admin, per ultim hi ha un controlador per els vots dels jocs on si tents la sessio iniciada pots votar, desvotar, veure els teus vots i encara que no tinguis sessio pots veure quants vots te un joc. També la api te un xathub per poder enviar missatges a altres usuaris. En la base de dades ho he fet de tal manera que hi ha una taula per jocs, les que utilitza identity pels usuaris i una pels vots que es troba entre mig de una relacio entre jocs i usuaris. En el client he fet una pagina per poder fer login, una per registrarse i si estas registrar pots fer logout o anar al xat. Apart desde el index pots accedir als jocs, veure la seva informació i vots i si estas registrat pot votar o desvotar. El esquema de la base de dades es pot trobar pujat en aquest mateix repositori.
+
 ## Bibliografia
+
+Alaman, R., Ruesga, E.(7/04/2025) T1. Generació de serveis en xarxa. Documents de Google. Recuperat el dia 07/04/2025 de [link](https://docs.google.com/document/d/1kAl8YOME8d3nd1EDz-KWBzpKJbxkLfBBoFTOlOj5P2k/edit?tab=t.0#heading=h.twi71dtqdepq)
+
+Ruesga, E. (03/04/2025) M09-T1.APIrest. GitHub. Recuperat el dia 07/04/2025 de [link](https://github.com/eduard-ruesga-xtec/M09-T1.APIrest)
+
 📎 Como leer el name de un toquen jwt para poder usarlo en un cliente en .net razor pages
 > En .NET Razor Pages, puedes leer el "name" de un token JWT utilizando la biblioteca System.IdentityModel.Tokens.Jwt. Aquí te dejo un ejemplo de cómo hacerlo:
 
